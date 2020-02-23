@@ -1,0 +1,80 @@
+body {
+    font-family: 'Open Sans Condensed', sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+.name {
+    color: orange;
+}
+
+.half-width {
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+
+.img-size {
+    height: 400px;
+    width: 400px;
+}
+
+.link-button {
+    text-decoration: none;
+    background-color: orange;
+    padding: 10px 10px;
+    border-radius: 5px;
+    color: white;
+    background-image: linear-gradient(lightSalmon, tomato);
+}
+
+.top-sidebar {
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+
+p {
+    color: dimgray;
+}
+
+section {
+    height: 500px;
+    border-bottom: 10px;
+}
+
+h2 {
+    height: 40px;
+}
+
+.dream-area {
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.experiance-box {
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 70%;
+    background-color: white;
+}
+
+.experiance-area {
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#full-stack {
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightSalmon, tomato);
+    border-image-slice: 1;
+}
+
+footer p {
+    text-align: center;
+}
